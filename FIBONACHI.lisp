@@ -3,5 +3,3 @@
 
 (defun factorials (n)
     (loop for a from 1 to n collect (factorial a)))
-
-(factorials 5)
